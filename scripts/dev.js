@@ -4,6 +4,7 @@ import { pluginSass } from '@rsbuild/plugin-sass';
 import { pluginReact } from '@rsbuild/plugin-react';
 
 const rsbuildConfig ={
+    // mode: 'development',
     server: {
       headers: { 'Access-Control-Allow-Origin': '*' },
       port: 3000,
